@@ -45,7 +45,7 @@ def naff(X, window=[], skipFirst=1):
     amp = []
 
     # fft
-    Xfft = np.abs(np.fft.fft(X,axis=0));
+    Xfft = np.abs(np.fft.fft(X,axis=0))
     
     # choose a starting guess and +/- range to scan
     if window:
